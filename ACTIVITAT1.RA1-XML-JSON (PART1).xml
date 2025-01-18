@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<!-- Documento XML para la gestión de productos de una tienda online -->
+
+<botiga_nike>
+
+<!-- Lista de productos -->
+<producte codi="CW2288-111">    <!-- Con el atributo codi, se proporciona al producto un identificador único -->
+    <categoria>Bambas</categoria>
+    <nom>Nike Air Force 1'07</nom>
+    <descripcio lang='cat'>     <!-- Con el atributo lang (language), se establece el catalan en la descripción del producto -->
+    El fulgor segueix viu a les Nike Air Force 1'07, un model original
+    de bàsquet que introdueix un nou gir als seus ja característics
+    revestiments amb costures duradores, els seus acabats impecables
+    i la quantitat perfecta de reflectant.
+    </descripcio>
+    <preu moneda="€">119,99</preu> <!-- Con el atributo moenda, se determina el tipo de divisa (Euros, €) en el precio -->
+    <disponibilitat>En estoc</disponibilitat>
+    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/AIR+FORCE+1+%2707.png" alt="Nike Air Force 1'07"/>
+    <!-- Con el atributo src se especifica la URL de la imagebn y con el atributo alt prorciona un texto alternativo que describe la imagen  -->
+</producte>
+
+<producte codi="FN8797-456">    <!-- Con el atributo codi, se proporciona al producto un identificador único -->
+    <categoria>Samarretes</categoria>
+    <nom>Primer equipament Stadium FC Barcelona 2024/25</nom>
+    <descripcio lang='cat'>     <!-- Con el atributo lang (language), se establece el catalan en la descripción del producto -->
+    La col·lecció Stadium combina detalls de disseny tipus rèplica amb una
+    tecnologia que capil·ltza la suor per oferir un look pensat per jugar i
+    inspirat en el teu equip preferit. Aquesta samarreta porta el mateix
+    logotip de Spotify que les anteriors equipacions del FCB.
+    </descripcio>
+    <preu moneda="€">99,99</preu> <!-- Con el atributo moenda, se determina el tipo de divisa (Euros, €) en el precio -->
+    <disponibilitat>Esgotat</disponibilitat>
+    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9a477f39-480c-41e8-9937-0e9e20312167/FCB+M+NK+DF+JSY+SS+STAD+HM.png" alt="Primer equipament Stadium FC Barcelona 2024/25"/>
+    <!-- Con el atributo src se especifica la URL de la imagebn y con el atributo alt prorciona un texto alternativo que describe la imagen  -->
+</producte>
+
+<producte codi="FB4748-657">    <!-- Con el atributo codi, se proporciona al producto un identificador único -->
+    <categoria>Dessuadores</categoria>
+    <nom>Xicago Bulls Club</nom>
+    <descripcio lang='cat'>     <!-- Con el atributo lang (language), se establece el catalan en la descripción del producto -->
+    A tots els aficionats als Bulls! Mostra la passió que sents pel teu equip
+    amb aquesta dessuadora amb caputxa Chicago Bulls. Confeccionada amb un suau 
+    teixit Fleece, manté la calidesa mentre animes el teu equip durant tota la
+    temporada.
+    </descripcio>
+    <preu moneda="€">69,99</preu><!-- Con el atributo moneda, se determina el tipo de divisa (Euros, €) en el precio -->
+    <disponibilitat>En estoc</disponibilitat>
+    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3bab9c71-0b19-4590-9db6-381a126e9040/CHI+MNK+CLUB+HDY+PO.png" alt="Xicago Bulls Club"/>
+    <!-- Con el atributo src se especifica la URL de la imagebn y con el atributo alt prorciona un texto alternativo que describe la imagen  -->
+</producte>
+
+<producte codi="FV7271-480">    <!-- Con el atributo codi, se proporciona al producto un identificador único -->
+    <categoria>Jaquetes</categoria>
+    <nom>Jordan Flight</nom>
+    <descripcio lang='cat'>     <!-- Con el atributo lang (language), se establece el catalan en la descripción del producto -->
+    Volar alt pot donar fred. Afortunadament, tenim aquesta espaiosa jaqueta
+    encoixinada per abrigar-te. El durador teixit antiesquinçament repel·lent
+    a l'aigua, l'aillament de plomissol i la nostra tecnologia Therma-FIT us
+    ofereixen calidesa i us protegeixen del mal temps.
+    </descripcio>
+    <preu moneda="€">249,99</preu> <!--  Con el atributo moenda, se determina el tipo de divisa (Euros, €) en el precio-->
+    <disponibilitat>En estoc</disponibilitat>
+    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/34338e02-7fbf-492b-b4db-0d4ca665efd1/M+J+FLIGHT+DOWN+PUFFER.png" alt="Jordan Flight"/>
+    <!-- Con el atributo src se especifica la URL de la imagebn y con el atributo alt prorciona un texto alternativo que describe la imagen  -->
+</producte>
+
+</botiga_nike>
