@@ -1,0 +1,92 @@
+{
+    "pokemons": [
+      {
+        "id": "0005",
+        "nom": "Charmeleon",
+        "tipus": ["fuego"],
+        "pes": "19.0 kg",
+        "altura": "1.1 m",
+        "estadistiques": {
+          "velocitat": 80,
+          "fortalesa": 64,
+          "precisio": 80,
+          "resistencia": 58
+        },
+        "moviments": [
+          {
+            "nom": "Lanzallamas",
+            "descripcio": "Lanza un intenso chorro de fuego que puede causar quemaduras.",
+            "potencia": 90,
+            "contacte": false
+          },
+          {
+            "nom": "Garra Dragón",
+            "descripcio": "Ataca al enemigo con afiladas garras de dragón.",
+            "potencia": 80,
+            "contacte": true
+          }
+        ],
+        "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fb/latest/20200411222755/Charmeleon.png",
+        "evolucions": [
+          {
+            "id": "0006",
+            "nom": "Charizard",
+            "nivell": 36
+          }
+        ],
+        "pre-evolucions": [
+          {
+            "id": "0004",
+            "nom": "Charmander",
+            "nivell": 0
+          }
+        ]
+      
+      },
+      {
+        "id": "0025",
+        "nom": "Pikachu",
+        "tipus": ["eléctrico"],
+        "pes": "6.0 kg",
+        "altura": "0.4 m",
+        "estadistiques": {
+          "velocitat": 90,
+          "fortalesa": 55,
+          "precisio": 50,
+          "resistencia": 40
+        },
+        "moviments": [
+          {
+            "nom": "Impactrueno",
+            "descripcio": "Ataca al enemigo con una pequeña descarga eléctrica.",
+            "potencia": 40,
+            "contacte": false
+          },
+          {
+            "nom": "Rayo",
+            "descripcio": "Lanza un rayo eléctrico que puede causar parálisis.",
+            "potencia": 90,
+            "contacte": false
+          }
+        ],
+        "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/7/77/latest/20150621181250/Pikachu.png",
+        "evolucions": [
+          {
+            "id": "0026",
+            "nom": "Raichu",
+            "condició": "Piedra Trueno"
+          }
+        ],
+        "pre-evolucions": [
+          {
+            "id": "0172",
+            "nom": "Pichu",
+            "condició": "Amistad"
+          }
+        ]
+     }
+    ]
+}
+    
+  
+  
